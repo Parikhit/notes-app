@@ -164,16 +164,16 @@ header,
 }
 .popup-box,
 .popup {
-    /* opacity: 0;
-    pointer-events: none; */
-    display: none;
-    /* transition: all 0.3s ease; */
+    opacity: 0;
+    pointer-events: none;
+    /* display: none; */
+    transition: all 0.3s ease;
 }
 .popup-box.show,
 .popup-box.show .popup {
-    /* opacity: 1;
-    pointer-events: auto; */
-    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    /* display: block;*/
 }
 .popup-box.show .popup {
     transform: translate(-50%, -50%) scale(1);
